@@ -36,6 +36,7 @@ void Withdraw()
     if(withamount<amount)
     {
         amount=amount-withamount;
+        printf("\nCollect your money");
     }
     else
     {
@@ -48,7 +49,7 @@ void Withdraw()
     printf("You entered wrong pin");
     printf("Please try again?");
   }
-  printf("\nCollect your money");
+
 }
 void Balance_Enquiry()
 {
